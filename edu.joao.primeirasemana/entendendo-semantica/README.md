@@ -38,5 +38,3 @@ Com os elementos HTML podemos:
 - `<html>`: Raiz do documento.
 - `<head>`: Contém metadados (como `<meta>`, `<title>`, CSS e JS).
 - `<body>`: Onde fica todo o conteúdo visível ao usuário.
-
-... (Conteúdo continua conforme detalhado anteriormente)

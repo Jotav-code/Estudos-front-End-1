@@ -1,0 +1,36 @@
+.navbar {
+    display: flex !important;
+    justify-content: space-between !important ;
+    background: rgb(217, 217, 217) !important;
+}
+.quem-somos{
+    background: rgb(56, 56, 63);
+    padding: 70px 30px;
+
+    /*O & siginifica para o css "Quero que voce acesse .quem-somos, e dentro dele
+    acesse o H1"*/
+    & h1{
+        color: white;
+    }
+}
+
+.parceiros {
+    background: rgb(78, 78, 86);
+    padding: 70px 30px;
+
+    & h2{
+        color: white;
+    }
+}
+
+.servicos{
+    background: rgb(66, 66, 78);
+    padding: 70px 30px;
+    color: aliceblue;
+
+}
+.servicos .h2{
+    /*Outra forma de acessar o h2*/
+    color: aliceblue;
+    text-align: center;
+}

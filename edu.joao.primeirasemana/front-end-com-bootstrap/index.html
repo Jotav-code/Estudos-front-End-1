@@ -1,0 +1,102 @@
+<!--Usando bootstrap-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Esse é um link que adiciona o bootstrap no seu projeto-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Este design foi criado em 1 minuto olhando a documentação do bootStrap, voce tem uma produtividade muito grande
+    Muito importante!!!! Olhe e acesse pelo menos a biblioteca de componentes do bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <!--Esse link importa o nosso css-->
+</head>
+<body>
+    <!--Inicio do header-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50px" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+            <a class="nav-link" href="#">Características</a>
+            <a class="nav-link" href="#">Preços</a>
+            <a class="nav-link disabled" aria-disabled="true">Desativado</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Fim do header-->
+
+    <!--inicio do section quem-somos-->
+    <section id="quem-somos">
+        <div class="container-fluid quem-somos text-center">
+            <!--Por padrão, se criarmos um container ele vem com um tamanho específico, caso a gente
+            queira usar 100% de espaço, colocamos o "-fluid"-->
+            <h1>Quem somos</h1>
+            <img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=600" width="400" height="400" alt="">
+        </div>
+    </section>
+    <!--Fim do section quem-somos-->
+
+    <!--inicio do section parceiros-->
+    <section id="parceiros">
+        <div class="contaier-fluid parceiros text-center text-center">
+            <h2>Parceiros</h2>
+
+            <div class="container">
+                <!--Essa parte é uma propriedade do bootstrap, por padrão nossa tela tem 12 grades invisiveis, que 
+                serve para organização e etc... col-lg-4 significa que minha div vai usar 4 grades-->
+                <div class="row">
+                    <div class="col-lg-4"> 
+                        <img src="https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200" alt="">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img src="https://images.pexels.com/photos/11573545/pexels-photo-11573545.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200" alt="">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img src="https://images.pexels.com/photos/15660594/pexels-photo-15660594/free-photo-of-design-projeto-visual-marca.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim do section parceiros-->
+
+    <!--inicio do section Serviços-->
+    <section id="servicos">
+      <div class="container-fluid servicos text-center">
+        <h2>Parceiros</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis nesciunt voluptate quis! Magni repudiandae in dolorem qui fugiat, alias porro sequi molestias, saepe velit provident illum earum? Labore, iusto earum.</p>
+            <img src="https://images.pexels.com/photos/16095185/pexels-photo-16095185/free-photo-of-padronizar-padrao-estrutura-modelo.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200" alt="">
+          </div>
+          <div class="col-lg-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis nesciunt voluptate quis! Magni repudiandae in dolorem qui fugiat, alias porro sequi molestias, saepe velit provident illum earum? Labore, iusto earum.</p>
+            <img src="https://images.pexels.com/photos/16095185/pexels-photo-16095185/free-photo-of-padronizar-padrao-estrutura-modelo.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200"  alt="">
+          </div>
+          <div class="col-lg-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis nesciunt voluptate quis! Magni repudiandae in dolorem qui fugiat, alias porro sequi molestias, saepe velit provident illum earum? Labore, iusto earum.</p>
+            <img src="https://images.pexels.com/photos/16095185/pexels-photo-16095185/free-photo-of-padronizar-padrao-estrutura-modelo.jpeg?auto=compress&cs=tinysrgb&w=600" width="200" height="200"  alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fim do section Serviços-->
+    <footer>
+      <div class="container-fluid text-center">
+        <p>&copy; Desenvolvido por joão vitor</p>
+      </div>
+    </footer>
+</body>
+</html>

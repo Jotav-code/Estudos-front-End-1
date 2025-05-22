@@ -39,7 +39,7 @@ Variável é um nome que você dá para guardar informações temporariamente, c
 
 ### Exemplo básico:
 
-```js
+``js
 let nome = 'Maria';
 let idade = 22;
 console.log(nome); // Maria
@@ -48,3 +48,50 @@ console.log(idade); // 22
 ## Documentação
 
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+# Introdução ao DOM no JavaScript
+
+O **DOM** (Document Object Model) é uma interface de programação para documentos HTML e XML. Ele representa a página de forma que os programas possam alterar a estrutura do documento, seu estilo e seu conteúdo de forma dinâmica.
+
+No contexto do **JavaScript**, o DOM é essencial para criar páginas interativas, pois permite acessar e manipular elementos HTML através do código.
+
+## O que o DOM permite fazer?
+
+Com o DOM, você pode:
+
+* Acessar elementos da página (como `<div>`, `<p>`, `<button>`, etc.)
+* Alterar o conteúdo e atributos desses elementos
+* Criar, remover ou mover elementos dentro da página
+* Reagir a eventos do usuário, como cliques, digitações e movimentos do mouse
+
+## Como o DOM funciona?
+
+O DOM organiza o documento em uma estrutura de **árvore** onde:
+
+* Cada elemento HTML é um **nó** da árvore
+* A tag `<html>` é a raiz
+* Tags aninhadas são filhas de seus respectivos pais
+
+## Exemplo simples de manipulação DOM:
+
+HTML:
+
+``html
+<p id="mensagem">Olá!</p>
+<button onclick="mudarMensagem()">Clique aqui</button>
+```
+
+JavaScript:
+
+```javascript
+function mudarMensagem() {
+  document.getElementById("mensagem").textContent = "Você clicou no botão!";
+}
+```
+
+Esse exemplo mostra como acessar um elemento pelo ID e alterar seu conteúdo de texto usando o DOM.
+
+---
+
+O DOM é uma parte fundamental do desenvolvimento web moderno, e dominar sua manipulação com JavaScript é essencial para qualquer desenvolvedor front-end.
+

@@ -1,1 +1,9 @@
-console.log("hello world")
+let curretNumber = document.getElementById('currentNumber');
+
+function decrement (){
+    curretNumber.innerHTML--;
+}
+
+function increment(){
+    curretNumber.innerHTML++;
+}

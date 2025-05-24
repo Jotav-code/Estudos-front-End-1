@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interação com javascript</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Contador</title>
 </head>
 <body>
-    <h1>Heloo world</h1>
-    <!--Script serve para a gente importar nosso arquivo java script-->
+    <h1>Olá, mundo!</h1>
+    <p>Este é o meu primeiro projeto Javascript.</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <!--onclick chama uma função em javaScrip-->
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>
+    <!--script serve para chamar nosso script a partir do arquivo que criamos-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
